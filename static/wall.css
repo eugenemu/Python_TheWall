@@ -1,0 +1,119 @@
+* {
+	margin: 0 auto;
+}
+
+
+#wrapper {
+	width: 650px;
+	background-color: lightgrey;
+}
+
+#register, #login {
+	height: 340px; width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#login {
+	border-left: 1px solid black;
+	margin-left: 20px;
+}
+
+form {
+	margin-left: 20px;
+}
+
+td {
+	float: right;
+}
+
+/*THE WALL CSS*/
+
+#container {
+	height: auto; width: 640px;
+}
+
+#top {
+	height: 80px; width: 640px;
+	display: inline-block;
+	outline: 1px solid black;
+	background-color: lightgrey;
+}
+
+#top h1, p, form {
+	display: inline-block;
+}
+
+#top h1 {
+	margin-left: 10px;
+}
+
+#top p {
+	position: relative; left: 150px; 
+}
+
+#top form {
+	position: relative; left: 170px; top: 35px;
+}
+
+#post, #wall {
+	margin-left: 100px;
+	display: inline-block;
+	line-height: 1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+	.message_button {
+		background-color: lightblue;
+	}
+
+	#post p, form {
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	#post form {
+		position: relative; right: 20px;
+	}
+
+	#post button, #wall button {
+		position: relative; top: 20px; right: 100px;
+		margin-top: 10px;
+	}
+
+	#wall textarea {
+		margin-top: 5px;
+	}
+
+
+	.message_author {
+		font-weight: bold;
+		font-size: 1.1em;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.comment_author {
+		font-weight: bold;
+		font-size: 0.9em;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+
+	.message {
+		color: blue;
+		margin-left: 20px;
+	}
+
+	.comment {
+		color: green;
+		margin: 10px 0px 10px 40px;
+	}
+
+	.comment_button {
+		margin-bottom: 20px;
+		background-color: lightgreen;
+	}
+
+
